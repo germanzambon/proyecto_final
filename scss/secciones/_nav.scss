@@ -1,0 +1,24 @@
+/* NAVEGACION O HEADER */
+.navegacion {
+     @extend .gradiante_nav;
+    border-bottom: $fondo_navegador solid;
+    font-family: fuente_nav;
+    
+
+    .btn-primary {
+        border-radius: 50px;
+        color: black;
+
+    }
+    img {
+        @extend .tamaño_imagen;
+        transition: .3s ease-in-out;
+        &:hover{
+            transform: scale(1.1);
+            
+        }
+    }
+}
+
+
+
